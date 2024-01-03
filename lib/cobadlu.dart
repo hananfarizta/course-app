@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mycourse/colors.dart';
-import 'package:mycourse/detail_course_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -102,12 +101,12 @@ class _HomeScreenState extends State<HomeScreen> {
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const DetailCourseScreen(),
-                    ),
-                  );
+                  // Navigator.push(
+                  //   context,
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const DetailCourseScreen(),
+                  //   ),
+                  // );
                 },
                 child: Container(
                   margin: const EdgeInsets.symmetric(
@@ -239,12 +238,12 @@ class _HomeScreenState extends State<HomeScreen> {
               itemBuilder: (context, index) {
                 return GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const DetailCourseScreen(),
-                      ),
-                    );
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(
+                    //     builder: (context) => const DetailCourseScreen(),
+                    //   ),
+                    // );
                   },
                   child: Container(
                     width: 240,
